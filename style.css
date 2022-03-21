@@ -1,0 +1,88 @@
+footer{
+    background:black;
+    color:white;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.imgRedonda {
+    width:200px;
+    height:200px;
+    border-radius:160px;
+    border:0px solid #666;
+
+}
+.hoja{
+    text-align:center;
+    padding: 10px;
+    height:50vh;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.cuerpo{
+    color:black;
+}
+.cuerpo-text{
+color: black;
+}
+body{
+    margin:0;
+    /*background-color: aqua;
+    background:aquamarine;
+   /*background-image:url("/imagenes/matrix.png") ;*/
+}
+#presentacion{
+    text-align:justify;
+    background-color:rgba(221, 228, 230, 0.959);
+    color: black;
+    border-radius:16px;
+    margin-top: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+#estudio{
+    text-align:justify;
+    background-color:rgba(238, 230, 230, 0.938);
+    color: black;
+    border-radius:16px;
+}
+
+#esperiencia{
+    text-align:justify;
+    background-color:rgba(221, 228, 230, 0.959);
+    color: black;
+    border-radius:16px;
+}
+#frmDatosPersonales{
+   /* background-image:url("/imagenes/matrix.png") ;*/
+   background-color:rgb(229, 238, 236);
+   border-radius:10px;
+   margin: 0 px;
+   margin-top: 40px;
+   text-align:justify;
+   padding: 20px;
+}
+table, th,td{
+    border: 1px ,solid;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+table{
+    border-spacing: 5px;
+    width: 50%;
+    font-family: arial;
+    padding: 20px;
+}
+th{
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    text-align:center;
+}
+table tr:nth-child(even){
+    background-color: rgb(236, 193, 193);
+}
+table tr:nth-child(odd){
+    background-color: rgb(253, 214, 214);
+}

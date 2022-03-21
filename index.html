@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>walter fernando guerrero</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--link js prueba-->
+    <script type="text/javascript" src="funciones.js"></script>
+    <!--link redes sociales-->
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/88d39b2c5a/UntitledProject/style.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="main.css">
+    <!--link de bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+  <div id="header">
+
+    <img class="container" src="./imagenes/logo_arg_prog.jpeg" width="800xp" height="150px">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="walter()" >
+                <!--<img src="/imagenes/fotoPerfil.jpeg"  class='imgRedonda' alt="" width="140" height="160" class="d-inline-block align-text-top">-->
+                <img src="./imagenes/fotoPerfil.jpeg"  class='imgRedonda'>
+              </a>
+          <a class="navbar-brand" href="#accordionExample" onclick="perfil()">GUERRERO WALTER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Presentacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tablaProyecto">Mis Proyectos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mis Datos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#estudio">Estudios</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#datos">Datos Personales</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#esperiencia">Esperiencia Laboral</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!--
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            -->
+          </div>
+        </div>
+      </nav>
+      <div class="social-bar" id="redes">
+        <a href="https://web.facebook.com/walterfernando.guerrero" class="icon icon-facebook" target="_blank"></a>
+        <a href="" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.youtube.com/channel/UCGGIaWhQNCfqI3imsLu8CvQ/channels" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/guerrerowalterfernando/" class="icon icon-instagram" target="_blank"></a>
+    </div>
+    
+        <div class="hoja"Hoja id="miHoja">
+              <!--Presentacion-->
+    <div id="presentacion" class="container">
+      <p><u><b>Presentación Personal:</b></u></p>
+      <p>Mi nombre es Walter tengo 45 años,  soy casado, tengo dos hijos, soy  Técnico Universitario en  Programación UTN regional Delta. Mi experiencia laboral está basada en mantenimiento de servicios esenciales  en la industria de Alimentación. </p>
+    </div>
+      <!--datos personales-->
+       <div  class="container" id="datos">
+          <form name="frmDatosPersonales" id="frmDatosPersonales">
+              <fieldset>
+                  <legend>  Datos Personales</legend>
+                      <span>  Nombre:</span>
+                      <input type="text" name="txtNombre" id="txtNombre" value="WALTER FERNANDO GUERRERO" readonly size="40">
+                      <span>  Dirección:</span>
+                      <input type="text" name="txtDir" id="txtDir" placeholder="Eva Perón 2942, Garin, Escobar" size="40" readonly>
+                      <br><br>
+                      <span>  Correo:</span>
+                      <input  size="40"  type="text" name="txtCorreo" id="txtCorreo" value="guerrerowalterfernando@yahoo.com.ar" readonly>
+                      <br><br>
+
+              </fieldset>
+          </form>
+          <br><br>
+
+      </div>
+      <div id="tablaProyecto" class="container">
+          <table border ="1">
+            <caption>Mis Proyectos de Programación</caption>
+            <thead>
+              <tr>
+                <th>Proyecto</th>
+                <th>Descripcion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>juego C++</td><td>space invader</td></tr>
+              <tr><td>juego de palabras VB</td><td>letras de ahorcado </td></tr>
+              <tr><td>lista Productos C# </td><td>Tabla de producto tecnológicos</td></tr>
+              <tr><td>cotizador Web Aspx C#</td><td>presupuesto Dinamico</td></tr>
+            </tbody>
+            <tfoot>
+              <tr><td colspan="2">@guerrerowalterfernando</td></tr>
+            </tfoot>
+          </table>
+      </div>
+            <div class="cuerpo-text container" id="miPerfil">
+                <div class="accordion" id="accordionExample">
+                    <h2 style="text-align:left"> MI PERFIL EN PROGRAMACION</h2>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          VISUAL BASIC .NET :
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>
+                          <strong>VB aplicacionnes de escritorio IAC.</strong>Bases de programación estructuradas: variables, constantes, estructuras de decisión IF ELSE CASE, estructuras de repetición FOR NEXT y WHILE, arrays Vectores y matrices de 2d.
+                          Formularios y controles con operaciones orientados eventos 
+                          Manejo de base de datos ACCSSES y SQL server creación  de  AMBL con formularios
+                           <code> Altas, Bajas, Borrado y Lectura</code>.
+                          </p>
+                          <p  style="text-align: right;">
+                            <input type="button" value="Editar"/>
+                            <input type="button" value="Cancelar"/>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          CSHARP NET FRAMEWORK y NET CORE :
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>C# Utn Pacheco , MaxiPrograma Academy, IAC olivos:</strong> 
+                          <p>Nivel1- Codificación de algoritmos con C# en Visual Studio Code con SDK y GitBash con NET Core en consola. Todas las estructuras básicas, corte de control, vectores, burbujeo de ordenamiento, funciones: firmas, parámetros y return. </p>
+                          <p>Nivel2- Programación en Visual Studio con .NETfremework. Aplicaciones de escritorio: manejo de formularios, controles, herramientas y eventos. Datagrid y colecciones. POO clases, objetos, instancias, constructores, sobrecarga, atributos, métodos, get y set.  SQL Server BD, tablas, primary keys, foreing keys, joins, querys.  Modelado en capas: Capa de negocio, dominio Presentación. Git y github (introducción básica). AMBL con capas y clases: mapeo de BD lógica de consulta con SQL y grilla dinámica. Sobrecarga de formulario para distinta tarea </p>
+                          <p>Nivel3- Programación Web en Visual Studio con .NETfremework. Aspx y archivo.cs, mater Page, web config, archivos CSS, controles en etiquetas DIV, pilas, colas, colecciones, Json(introduccion), bootstrap, Sesión usuario. </p>
+                          <code>.Web  en proceso de aprendizaje y complementado con Argentina Programa  fullstack Jr.</code>.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          ARGENTINA PROGRAMA:
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>perfil Full Stack Jr</strong>  
+                          <p>Nivel1- Capitulo1: fundamentos de programación con GOBSTONES: procedimientos, repetición simple, parámetros, expresiones, alternativa condicional,  funciones. 
+                            Capitulo2- Java Script: funciones, operadores matemáticos y lógicos, comparaciones, condicional, variables, repetición indexad.
+                            Capitulo3- Lenguaje Ruby: objeto, ambiente, envió de mensajes, definición de objeto, definición de métodos, interfaz, asignación, self, herencia, polimorfismo, clases, excepciones y colecciones 
+                            </p>
+                            <p>Nivel2- <b>#yoProgramo: </b>- Tecnologías informáticas,  arquitectura Web: (http, DNS, Dominio) metodologías agiles, Scrum, Git, gitHub, Frond End Estático (HTML, css, bootstrap, js), TypeScript</p>
+                            <p>- <b> Frond End Dinámico</b>  SWA, MPA, SPA, manipular DOM, Angular niv. Inicial (Arq., módulos, componentes, templates, directivas, databinding),  Angular CLI. </p>
+                            <p>-<b> Bases de Datos relacionales</b>: diseño, normalización de datos, mySQL, workbench  8.0, programar base de datos, POO: UML, fundamentos POO, análisis y diseños OPP, patrones de diseño. </p>
+                            <p>-<b> Programación Java: </b>Apache NetBeans, código java, Arrays, colecciones, excepciones, métodos en Java. </p>
+                            <p>-<b> Programación Web Java: </b>Arquitectura Rest, métodos HTTP, jps, JPA, Servlets,  Sockets</p>
+                          <code>.accordion-body</code>.
+                          <button type="button" class="btn btn-primary">Walter</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="estudio" class="container">
+                    <p>
+                        <h3><u>Estudios Cursados</u></h3>
+                    </p>
+                    <ul>
+                        
+                        <li><h5>Terciario: UTN Delta sede Escobar. Titulo: Tec.Universitario en Programación</h5></li>
+                        <li><h6>Secundaria: EET "Maq Savio" Nro 1, Talar, Tigre. Titulo: M.M.Obras </h6></li>
+                        <li><h6>Primaria: "M M Guemes" Nro. 30, Talar, Tigre</h6></li>
+                    </ul>
+                </div>
+                <div id="esperiencia" class="container">
+                    <p><h4><u>Esperiencia Laboral</u></h4> </p>
+                    <ul>
+                        <li><h6>Mondelez </h6></li>
+                        <li><h6>easy </h6></li>
+                        <li><h6>Sol Petroleo </h6></li>
+                    </ul>
+                </div>
+
+            </div>
+
+                <!--boton desde la web boostrap
+                 <button type="button" class="btn btn-primary">Walter</button>
+                -->
+                <footer class="container">
+                    <p>@portafolio de walter fernando guerrero 2022 </p>
+                </footer>
+        </div>
+        <script src="funciones.js"></script> 
+</body>
+</html>
